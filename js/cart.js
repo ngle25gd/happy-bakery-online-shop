@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
    setupCheckout();
 });
 
-// show the cart
 
 function renderCart() {
    const cartList = document.getElementById("cart-items-list");
@@ -53,7 +52,6 @@ function renderCart() {
    totalPriceElement.innerText = totalAll;
 }
 
-//change the number of quantity, erase product when product number is 0
 
 window.updateQty = function(index, change) {
    let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -70,7 +68,7 @@ window.updateQty = function(index, change) {
    renderCart();
 };
 
-//check out
+
 function setupCheckout() {
    const btnCheckout = document.querySelector(".check-out");
    if (btnCheckout) {
