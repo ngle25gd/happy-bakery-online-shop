@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cart</title>
+   <link rel="stylesheet" href="css/cart.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+   <div class="logo">
+       <img src="img/logohappybakery.jpg" alt="Happy Bakery logo">
+   </div>
+<nav>
+   <ul>
+     <a href="index.html">
+       <li>Home</li>
+   </a>
+     <a href="products.html">
+       <li>Products</li>
+   </a>
+     <a href="cart.html">
+       <li>Cart</li>
+   </a>
+   </ul>
+</nav>
+</header>
+<h1>Cart</h1>
+<main class ="cart-page">
+<div class="cart-collumn">
+<!--product collumn-->
+<div class="product-collumn">
+<h3 class ="product">Product</h3>
+</div>
+<!--quantity collumn-->
+<div class="product-quantity">
+<h3 class="quantity">Quantity</h3>
+</div>
+<!--price collumn-->
+<div class="product-price">
+<h3 class="price">Price</h3>
+</div>
+</div>
+<div id="cart-items-list"></div>
+<h3 class="total">Total <span id="total-price">0</span>SEK</h3>
+</div>
+<button class="check-out">Check out</button>
+</main>
+<script src="js/cart.js"></script>
+  
+</body>
+</html>
