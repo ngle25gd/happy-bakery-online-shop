@@ -157,3 +157,28 @@ input::-webkit-inner-spin-button {
         gap: 20px;
     }
 }
+
+/*footer*/
+footer {
+   border-top: 1px solid black;
+   margin-top: 2rem;
+   color: #663300;
+}
+/* Breakpoint 1: Tablet (under 1024px) -> 2 collumns */
+@media screen and (max-width: 1024px) {
+    .category-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Breakpoint 2: Mobile (under 600px) -> 1 collumn */
+@media screen and (max-width: 600px) {
+    .category-container {
+        grid-template-columns: 1fr;
+    }
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}

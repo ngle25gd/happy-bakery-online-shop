@@ -27,7 +27,9 @@ nav {
 
 .category-img {
    width: 100%;
-   height: 100%;
+   height: auto;
+   border-radius: 8px;
+   object-fit: cover;
 }
 
 
@@ -50,13 +52,11 @@ color: #330000;
 
 h1 {
    text-align: center;
-   color:#663300;
 }
 
 
 h3 {
    text-align: center;
-   color:#663300;
 }
 
 
@@ -65,47 +65,38 @@ header, ul {
    flex-direction: column;
 }
 }
-.cart-collumn, .cart-item-row {
+/*main*/
+.img-banner {
+   width: 100%;
+   height: 30%;
    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   border-bottom: 1px solid #ddd;
-   padding: 10px 0;
 }
-.product-collumn, .product-info-col {
-   flex: 2;
-   display: flex;
-   align-items: center;
-   gap: 10px;
-}
-
-
-.product-quantity, .quantity-col {
-   flex: 1;
+.greetings {
    text-align: center;
 }
+/*categories*/
 
 
-.product-price, .price-col {
-   flex: 1;
-   text-align: right;
+.category-container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 30px;
+   padding: 40px;
+   max-width: 1200px;
+   margin: 0 auto;
 }
 
 
-.product {
-   text-align: left;
+figure {
+   margin-left:0;
 }
-.total {
-   text-align: right;
-   margin-top: 20px;
+h1 {
+   color: #663300;
 }
-.check-out {
-   display: flex;
-   margin-top: 20px;
-   align-items: center;
-   text-align: right;
-   border-radius: 20px;
+h3 {
+   color: #330000;
 }
+
 
 /*footer*/
 footer {
