@@ -62,7 +62,7 @@ if (buttonAdd) {
 
 
        //alert the users
-       alert("Added ${product.quantity} ${product.name} to basket!")
+       alert(`Added ${product.quantity} ${product.name} to basket!`)
 
 
    }
