@@ -1,46 +1,43 @@
 h1 {
-   text-align: center;
+  text-align: center;
 }
-
 
 h3 {
-   text-align: center;
+  text-align: center;
 }
-
 
 @media screen and (max-width: 520px) {
-header, ul {
-   flex-direction: column;
-}
+  header,
+  ul {
+    flex-direction: column;
+  }
 }
 /*main*/
 .img-banner {
-   width: 100%;
-   height: 30%;
-   display: flex;
+  width: 100%;
+  height: 30%;
+  display: flex;
 }
 .greetings {
-   text-align: center;
+  text-align: center;
 }
 /*categories*/
 
-
 .category-container {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   gap: 30px;
-   padding: 40px;
-   max-width: 1200px;
-   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
 
 figure {
-   margin-left:0;
+  margin-left: 0;
 }
 h1 {
-   color: #663300;
+  color: #663300;
 }
 h3 {
-   color: #330000;
+  color: #330000;
 }

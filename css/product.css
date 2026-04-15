@@ -1,108 +1,104 @@
-
 h1 {
-   text-align: center;
+  text-align: center;
 }
-
 
 h3 {
-   text-align: left;
+  text-align: left;
 }
-
 
 @media screen and (max-width: 520px) {
-header, ul {
-   flex-direction: column;
-}
+  header,
+  ul {
+    flex-direction: column;
+  }
 }
 
 /* layout */
 .product-top {
-   display: flex;
-   max-width: 1300px;
-   margin: 0 auto;
-   gap: 60px;
-   padding: 40px;
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 60px;
+  padding: 40px;
 }
-
 
 /* left side: product image and description */
 .product-left {
-   flex: 1.8;
-   display: flex;
-   flex-direction: column;
+  flex: 1.8;
+  display: flex;
+  flex-direction: column;
 }
 
 .blueberry-img {
-   width: 100%;    
-   max-width: none;   
-   height: auto;
-   display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  display: block;
 }
 
 .calories-list {
-   list-style-type: disc;
-   padding-left: 0;
-   display: block;
+  list-style-type: disc;
+  padding-left: 0;
+  display: block;
 }
 
 .product-description {
-   text-align: left;
+  text-align: left;
 }
-
 
 /* right side: product purchase */
 .product-right {
-   flex: 1;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .product-info h3 {
-   text-align: left;
-   font-size: 2rem;
-   margin-top: 10px;
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 10px;
 }
 
 .price {
-   font-size: 1.5rem;
-   margin-bottom: 20px;
-   color: #660000;
-   font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #660000;
+  font-weight: bold;
 }
 
 .product-description {
-   max-width: 1100px;
-   margin: 40px auto;
-   padding: 20px;
-   border-top: 1px solid #eee;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  border-top: 1px solid #eee;
 }
 
 .quantity-and-add {
-   display: flex;
-   gap: 15px;
-   margin-top: 20px;
-   align-items: center;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  align-items: center;
 }
 .add {
-   border-radius: 20px;
-   background-color: #660000;
-   color: white;
-   padding: 10px 25px;
-   cursor: pointer;
+  border-radius: 20px;
+  background-color: #660000;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
 }
 /* hide the ar */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
- -webkit-appearance: none;
- margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media screen and (max-width: 900px) {
-    .product-top {
-        flex-direction: column;
-    }
-    header {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .product-top {
+    flex-direction: column;
+  }
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

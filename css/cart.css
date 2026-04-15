@@ -1,58 +1,58 @@
 h1 {
-   text-align: center;
-   color:#663300;
+  text-align: center;
+  color: #663300;
 }
-
 
 h3 {
-   text-align: center;
-   color:#663300;
+  text-align: center;
+  color: #663300;
 }
-
 
 @media screen and (max-width: 520px) {
-header, ul {
-   flex-direction: column;
+  header,
+  ul {
+    flex-direction: column;
+  }
 }
+.cart-collumn,
+.cart-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
 }
-.cart-collumn, .cart-item-row {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   border-bottom: 1px solid #ddd;
-   padding: 10px 0;
-}
-.product-collumn, .product-info-col {
-   flex: 2;
-   display: flex;
-   align-items: center;
-   gap: 10px;
-}
-
-
-.product-quantity, .quantity-col {
-   flex: 1;
-   text-align: center;
+.product-collumn,
+.product-info-col {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-
-.product-price, .price-col {
-   flex: 1;
-   text-align: right;
+.product-quantity,
+.quantity-col {
+  flex: 1;
+  text-align: center;
 }
 
+.product-price,
+.price-col {
+  flex: 1;
+  text-align: right;
+}
 
 .product {
-   text-align: left;
+  text-align: left;
 }
 .total {
-   text-align: right;
-   margin-top: 20px;
+  text-align: right;
+  margin-top: 20px;
 }
 .check-out {
-   display: flex;
-   margin-top: 20px;
-   align-items: center;
-   text-align: right;
-   border-radius: 20px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  text-align: right;
+  border-radius: 20px;
 }

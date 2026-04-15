@@ -1,98 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Product: Blueberry Mousse</title>
-   <link rel="stylesheet" href="css/product.css">
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product: Blueberry Mousse</title>
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logohappybakery.jpg" alt="Happy Bakery logo" />
+      </div>
+      <nav>
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="products.html">
+            <li>Products</li>
+          </a>
+          <a href="cart.html">
+            <li>Cart</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-   <header>
-  <div class="logo">
-       <img src="img/logohappybakery.jpg" alt="Happy Bakery logo">
-   </div>
-<nav>
-   <ul>
-     <a href="index.html">
-       <li>Home</li>
-   </a>
-     <a href="products.html">
-       <li>Products</li>
-   </a>
-     <a href="cart.html">
-       <li>Cart</li>
-   </a>
-   </ul>
-</nav>
-</header>
+    <h1 style="color: #330033">🫐 Blueberry Mousse - 200g 🫐</h1>
 
+    <main class="product-page">
+      <!--product info and image in the left-->
+      <div class="product-top">
+        <div class="product-left">
+          <img
+            class="blueberry-img"
+            src="img/blueberryproduct.jpg"
+            alt="blueberry"
+          />
+          <div class="product-description">
+            <h3>✨ Description ✨</h3>
+            <p>
+              A light and creamy blueberry mousse made with fresh blueberries
+              and smooth whipped cream. <br />
+              This 200g portion is perfect for one person — a sweet and
+              refreshing dessert to enjoy anytime. <br />
+              The soft texture melts in your mouth, balanced with natural berry
+              sweetness and a delicate buttery base. <br />
+              Made fresh daily with carefully selected ingredients for the best
+              flavor.
+            </p>
+            <h4>🍰 Ingredients 🍰</h4>
+            <p>
+              Fresh blueberries, whipping cream, sugar, milk, gelatin, vanilla
+              extract, butter, biscuit base.
+            </p>
+            <h4>🔥 Average Calories 🔥</h4>
+            <ul class="calories-list">
+              <li>Energy: 560 kcal</li>
+              <li>Protein: 8g</li>
+              <li>Fat: 36g</li>
+              <li>Carbohydrates: 50g</li>
+              <li>Sugar: 40g</li>
+            </ul>
+          </div>
+        </div>
 
-<h1 style="color:#330033">🫐 Blueberry Mousse - 200g 🫐</h1>
-
-
-<main class="product-page">
-<!--product info and image in the left-->
-<div class="product-top">
-<div class="product-left">
-   <img class="blueberry-img" src="img/blueberryproduct.jpg" alt="blueberry">
-<div class="product-description">
-               <h3>
-               ✨ Description ✨
-               </h3>
-               <p>
-               A light and creamy blueberry mousse made with fresh blueberries and smooth whipped cream. <br>
-This 200g portion is perfect for one person — a sweet and refreshing dessert to enjoy anytime. <br>
-The soft texture melts in your mouth, balanced with natural berry sweetness and a delicate buttery base. <br>
-Made fresh daily with carefully selected ingredients for the best flavor.
-               </p>
-               <h4>
-               🍰 Ingredients 🍰
-              </h4>
-              <p>
-               Fresh blueberries, whipping cream, sugar, milk, gelatin, vanilla extract, butter, biscuit base.
-              </p>
-              <h4>
-               🔥 Average Calories 🔥
-              </h4>
-               <ul class="calories-list">
-                   <li>Energy: 560 kcal</li>
-                   <li>Protein: 8g</li>
-                   <li>Fat: 36g</li>
-                   <li>Carbohydrates: 50g</li>
-                   <li>Sugar: 40g</li>
-               </ul>
-</div>
-</div>
-
-
-<!--product purchase in the right side-->
-<div class="product purchasing">
-<div class ="product-info">
-   <h3>Blueberry Mousse</h3>
-   <p class="price" style="color:#660000">85 SEK</p>
-   <p>Blueberry Mousse, as the name suggests, is mousse enhanced with blueberries for additional flavors and textures. Mousse was invented in Paris and was the subject of countless experiments to find the perfect fruits and sweets to add. Its flavors and textures are nearly indescribably refreshing.</p>
-</div>
-<!--Buying-->
-<div class="quantity-and-add">
-<div class="product-quantity">
-<button type="button" class ="button-minus">-</button>
-<input type="number" class="input-quantity" value="1" min="1">
-<button type="button" class="button-plus">+</button>
-</div>
-<!--Add cart-->
-<button class="add">Add to basket</button>
-</div>
-</div>
-</div>
-<script src="js/product.js"></script>
-</main> 
-</body>
-
-
+        <!--product purchase in the right side-->
+        <div class="product purchasing">
+          <div class="product-info">
+            <h3>Blueberry Mousse</h3>
+            <p class="price" style="color: #660000">85 SEK</p>
+            <p>
+              Blueberry Mousse, as the name suggests, is mousse enhanced with
+              blueberries for additional flavors and textures. Mousse was
+              invented in Paris and was the subject of countless experiments to
+              find the perfect fruits and sweets to add. Its flavors and
+              textures are nearly indescribably refreshing.
+            </p>
+          </div>
+          <!--Buying-->
+          <div class="quantity-and-add">
+            <div class="product-quantity">
+              <button type="button" class="button-minus">-</button>
+              <input type="number" class="input-quantity" value="1" min="1" />
+              <button type="button" class="button-plus">+</button>
+            </div>
+            <!--Add cart-->
+            <button class="add">Add to basket</button>
+          </div>
+        </div>
+      </div>
+      <script src="js/product.js"></script>
+    </main>
+  </body>
 </html>
